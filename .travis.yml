@@ -39,6 +39,7 @@ script:
   - yarn type-check
   - yarn closure
   - yarn smoke
+  - cat perf.json
   - yarn smokehouse
   # _JAVA_OPTIONS is breaking parsing of compiler output. See #3338.
   - unset _JAVA_OPTIONS
